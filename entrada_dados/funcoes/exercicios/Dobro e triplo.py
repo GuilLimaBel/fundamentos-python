@@ -1,5 +1,10 @@
-valor = float(input("Digite o valor: "))
-valor_dobro = valor * 2
-valor_triplo = valor * 3
+def dobro_triplo():
+    numero = float(input("Digite um número: "))
 
-print(f"O dobro do seu valor é {valor_dobro}, e o triplo é {valor_triplo}")
+    dobro = numero * 2
+    triplo = numero * 3
+
+    print("Dobro:", dobro)
+    print("Triplo:", triplo)
+
+dobro_triplo()

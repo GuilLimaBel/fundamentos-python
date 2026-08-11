@@ -1,4 +1,8 @@
-valor= float(input("Digite a quantidade de metros: "))
+def converter_metros():
+    metros = float(input("Digite o valor em metros: "))
 
-total = valor * 100
-print(f"O valor do metro em centímetros é {total}cm")
+    centimetros = metros * 100
+
+    print("Valor em centímetros:", centimetros, "cm")
+
+converter_metros()

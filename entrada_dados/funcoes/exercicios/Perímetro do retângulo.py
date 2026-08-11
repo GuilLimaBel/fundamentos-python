@@ -1,5 +1,9 @@
-valor_base= float(input("Digite o valor da base: "))
-valor_altura = float(input("Digite o valor da altura: "))
+def calcular_perimetro():
+    base = float(input("Digite a base: "))
+    altura = float(input("Digite a altura: "))
 
-total = 2 * (valor_base + valor_altura)
-print(f"O valor do Perímetro do retângulo é {total}")
+    perimetro = 2 * (base + altura)
+
+    print("Perímetro:", perimetro)
+
+calcular_perimetro()

@@ -1,4 +1,10 @@
-nome = input("Digite o seu nome?: ")
-idade = int(input("Digite sua idade?: "))
+def calcular_dobro_triplo():
+    numero = float(input("Digite um número: "))
 
-print(f"{nome} possui {idade} anos")
+    dobro = numero * 2
+    triplo = numero * 3
+
+    print("Dobro:", dobro)
+    print("Triplo:", triplo)
+
+calcular_dobro_triplo()

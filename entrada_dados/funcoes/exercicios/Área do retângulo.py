@@ -1,5 +1,9 @@
-valor_base= float(input("Digite o valor da base: "))
-valor_altura = float(input("Digite o valor da altura: "))
+def calcular_area():
+    base = float(input("Digite a base: "))
+    altura = float(input("Digite a altura: "))
 
-total = valor_base * valor_altura
-print(f"O valor da área é {total}")
+    area = base * altura
+
+    print("Área:", area)
+
+calcular_area()
